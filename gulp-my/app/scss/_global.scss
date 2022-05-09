@@ -1,0 +1,25 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	overflow-x: hidden;
+	min-width: 280px;
+	font-size: 17px;
+	line-height: 26px;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
